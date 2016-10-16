@@ -39,28 +39,6 @@
 
       </header>
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-details" itemprop="name">Languages, Libraries &amp; Frameworks</h3>
-          <p class="resume-item-copy">Ruby, PHP, JavaScript, ColdFusion, HTML/CSS, jQuery, SQL, Java, C, bash, sh, ASP, JSP, VB, YUI, AMPScript, dank memes, Ruby on Rails, jekyll, backbone.js, W/LAMP stacks, ColdFusion application servers 8 and 9, Open BlueDragon application server, Java WebLogic Application Server, Wordpress, Mediawiki.</p>
-        </div><!-- end of resume-item -->
-
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-details" itemprop="name">Systems, Platforms, Testing &amp; Tools</h3>
-          <p class="resume-item-copy">MongoDB, Redis, postgres, sidekiq, rabbitmq, git, subversion, bundler, Docker, Codeship &amp; Travis CI, capistrano, minitest, rspec, Capybara, phantomjs, Apache Tomcat and httpd, IIS6, MySQL, SQL Server 2003 and 2008, Windows Server 2003, Ubuntu Linux for Desktop and Server, Citrix XenServer, Debian and Red Hat Linux for Server, Solaris Server, OSX, Windows Server 2008, Adobe Photoshop, Illustrator, and Dreamweaver, Salesforce Marketing Cloud Platform.</p>
-        </div><!-- end of resume-item -->
-
-      </section>
-      {% endif %}
-
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -68,6 +46,7 @@
         <header class="section-header">
           <h2>Experience</h2>
         </header>
+
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
@@ -92,54 +71,19 @@
 
         <!-- another resume item -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Lesson.ly</h3>
-          <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; Sept, 2015 &mdash; Feb, 2016</h4>
-          <p class="resume-item-copy">Developing and engineering the idea of giving you everything you need to do your job well.</p>
+          <h3 class="resume-item-title" itemprop="name">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
+          <h4 class="resume-item-details" itemprop="description">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
+          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
 
         </div><!-- end of resume-item -->
 
         <!-- by now you're getting the picture... -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">ExactTarget/Salesforce Marketing Cloud</h3>
-          <h4 class="resume-item-details" itemprop="description">Sr. Software Engineer &bull; Oct, 2013 &mdash; Sept, 2015</h4>
-          <p class="resume-item-copy">Helping online retailers make more money via email. Behavior-based triggered email for online retailers and other computer things for online retailers.</p>
+          <h3 class="resume-item-title" itemprop="name">Simpson Lazer Tag</h3>
+          <h4 class="resume-item-details" itemprop="description">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
+          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
 
         </div><!-- end of resume-item -->
-
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">iGoDigital</h3>
-          <h4 class="resume-item-details" itemprop="description">Ruby Programmer &bull; Jun, 2012 &mdash; Oct, 2013</h4>
-          <p class="resume-item-copy">Helping online retailers make more money via email. Behavior-based triggered email for online retailers and other computer things for online retailers.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Web Connectivity</h3>
-          <h4 class="resume-item-details" itemprop="description">Web Designer/Developer &bull; Apr, 2011 &mdash; Mar, 2012</h4>
-          <p class="resume-item-copy">Designed and developed web-sites for Unions leveraging a propri­etary CMS, maintained and supported internal data center, prepared and converted physical machines into virtual machines for Xen. Worked on a team with two other developers, collaborated on projects using Subversion. Troubleshoot customer issues via phone and remote-desktop software. Work included ColdFusion, PHP, SQL, bash, jQuery, JavaScript, CSS, and HTML.</p>
-
-        </div><!-- end of resume-item -->
-
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Light Engineering</h3>
-          <h4 class="resume-item-details" itemprop="description">Web Designer/Developer &amp; System Administrator &bull; Apr, 2009 &mdash; Apr, 2010</h4>
-          <p class="resume-item-copy">Maintained web-site and updated content per marketing director, extended an existing web-application’s scope by building requested features, designed and developed web-sites according to product branding and identity. Migrated web content and made appropriate DNS changes enabling employees and customers in China to access their site. Work included PHP, SQL, jQuery, JavaScript, CSS, and HTML.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Tourdesign Creative Services</h3>
-          <h4 class="resume-item-details" itemprop="description">Web Designer/Developer Intern &bull; Aug, 1999 &mdash; Mar, 2002</h4>
-          <p class="resume-item-copy">High School internship through Interdisciplinary Cooperative Education (ICE) during my Senoir year, working half-days 5 days a week . Designed, updated, maintained their web-site, developed online creative presentations in Flash, designed media rich web pages, animated e-cards, and interactive emails for mass mailings.</p>
-
-        </div><!-- end of resume-item -->
-
 
       </section>
       <!-- end Experience -->
@@ -154,15 +98,9 @@
         </header>
 
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Indiana University, Bloomington</h3>
-          <h4 class="resume-item-details" itemprop="description">B.A. Liberal Arts and Sciences &bull; 2002 &mdash; 2006</h4>
-          <p class="resume-item-copy">Independent Major Philosophy &amp; Photography Focus</p>
-        </div>
-
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Indiana University Purdue University, Indianapolis</h3>
-          <h4 class="resume-item-details" itemprop="description">A.S. Computer Information Technology &bull; 2008 &mdash; 2010</h4>
-          <p class="resume-item-copy" itemprop="description">Certificate in Applied Computer Science</p>
+          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
+          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
+          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
         </div>
 
       </section>
@@ -191,6 +129,33 @@
 
       </section>
       <!-- end Projects -->
+      {% endif %}
+
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Donut design</h4>
+          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Craft beer brewing</h4>
+          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Family leadership</h4>
+          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
+        </div>
+
+      </section>
+      <!-- end Skills -->
       {% endif %}
 
       {% if site.resume_section_recognition %}
@@ -266,7 +231,10 @@
       <!-- end Links -->
       {% endif %}
 
-      <!-- <3 @jglovier -->
+      <footer class="page-footer">
+        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
+        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+      </footer>
 
     </div>
 

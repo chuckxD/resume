@@ -10,10 +10,10 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Homer J. Simpson"
-resume_title:                   "Nuclear Safety Inspector"
+resume_name:                    "Chuck Schleutker"
+resume_title:                   "Software Engineer"
 resume_contact_email:
-  "homerjsimpson@youremailaddress.com"
+  "chuck.schleutker@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -23,24 +23,24 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
+resume_section_skills:          true
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+resume_section_projects:        false
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_github_url:            "https://github.com/chuckxd"
+  resume_twitter_url:           "http://twitter.com/mllkm4n"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/chuck-schleutker-2a41b523"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
+  # resume_website_url:           "http://joelglovier.com"
 
 # Design settings
 resume_theme:                   default
