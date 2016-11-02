@@ -9,14 +9,17 @@
 
       <header class="page-header">
 
-        <!-- You can turn off the avatar in _config.yml by setting to false -->
-        {% if site.resume_avatar == 'true' %}
-        <img src="images/ayyylmao.png" alt="my photo" class="avatar" itemprop="image">
-        {% endif %}
+        <div class="title">
+          <!-- You can turn off the avatar in _config.yml by setting to false -->
+          {% if site.resume_avatar == 'true' %}
+          <img src="images/ayyylmao.png" alt="my photo" class="avatar" itemprop="image">
+          {% endif %}
 
-        <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">J. Charles Schleutker</h1>
+          <!-- Your name is defined in the _config.yml file -->
+          <h1 class="header-name" itemprop="name">Chuck Schleutker</h1>
+        </div>
 
+        <div class="title-bar-wrapper">
         <div class="title-bar">
 
           <!-- Your title is also defined in the _config.yml file -->
@@ -26,23 +29,24 @@
           {% include icon-links.html %}
         </div>
 
-        <div class="executive-summary" itemprop="description">
-          <p>Hi, I'm Chuck, Software Engineer, Web Developer, and technical facilitator of ideas for people. I have been designing and developing for the web before the dawn of the 21st century. I've been having a blast keeping up and living out the ever changing landscape technology has had in numerous commercial sectors.</p>
-          <p>I am looking for a customer focused, business practical, and earnest group of communicators who value building out what's best for empowering their customers to be better at whatever they do. How well teams are productizing, monetizing, and maintaining this integral essence of what the customer wants is the ultimate determinate of any kind of software to succeed in any market.</p>
-        </div>
+          <div class="executive-summary" itemprop="description">
+            <p>Hi, I'm Chuck, Software Engineer, Web Developer, and technical facilitator of ideas for people. I have been designing and developing for the web before the dawn of the 21st century. I've been having a blast keeping up and living out the ever changing landscape technology has had in numerous commercial sectors.</p>
+            <p>I am looking for a customer focused, business practical, and earnest group of communicators who value building out what's best for empowering their customers to be better at whatever they do. How well teams are productizing, monetizing, and maintaining this integral essence of what the customer wants is the ultimate determinate of any kind of software to succeed in any market.</p>
+          </div>
 
-        {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
+          {% if site.resume_looking_for_work == 'yes' %}
+          <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
+          {% elsif site.resume_looking_for_work == 'no' %}
+          <a class="contact-button not-looking">I'm not looking for work right now.</a>
+          {% else %}
+          {% endif %}
+        </div>
 
       </header>
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
-      <section class="content-section">
+      <section class="content-section skills">
 
         <header class="section-header">
           <h2>Skills</h2>
@@ -64,27 +68,12 @@
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
-      <section class="content-section">
+      <section class="content-section experience">
 
         <header class="section-header">
           <h2>Experience</h2>
         </header>
 
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Freelance</h3>
-          <h4 class="resume-item-details" itemprop="description">Developer/Designer &bull; Jan, 2002 &mdash; Present</h4>
-          <p class="resume-item-copy">The majority of work and contacts I have made is generally through word of mouth. I have serviced clients as big as the Indiana Pacers and Clear Channel and as small as something for a friend or family member. Most work is a grab bag of design and development involving PHP, SQL, JavaS­cript, jQuery, CSS, HTML, or whatever the client wants.</p>
-          <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
-          </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
-
-        </div> end of resume-item -->
-
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">Freelance</h3>
           <h4 class="resume-item-details" itemprop="description">Developer/Designer &bull; Jan, 2002 &mdash; Present</h4>
@@ -167,7 +156,7 @@
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
-      <section class="content-section">
+      <section class="content-section education">
 
         <header class="section-header">
           <h2>Education</h2>
